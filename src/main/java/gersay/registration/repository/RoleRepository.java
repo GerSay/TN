@@ -1,4 +1,8 @@
 package gersay.registration.repository;
 
-public interface RoleRepository {
+import gersay.registration.entity.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoleRepository extends JpaRepository<Role, Long> {
+
 }
